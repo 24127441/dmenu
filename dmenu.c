@@ -915,7 +915,7 @@ setup(void)
 static void
 usage(void)
 {
-	die("usage: dmenu [-bFfv] [-l lines] [-h height] [-p prompt] [-fn font] [-m monitor]\n"
+	die("usage: dmenu [-bFfv] [-s case-sensitive] [-l lines] [-h height] [-p prompt] [-fn font] [-m monitor]\n"
 	    "             [-nb color] [-nf color] [-sb color] [-sf color]\n"
 	    "             [-nhb color] [-nhf color] [-shb color] [-shf color] [-w windowid]");
 }
